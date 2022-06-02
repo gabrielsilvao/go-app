@@ -1,0 +1,7 @@
+server {
+    server_name seletivaredes.com.br;
+
+    location / {
+        proxy_pass http://localhost:9998;
+    }
+}
